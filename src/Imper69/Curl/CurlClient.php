@@ -3,6 +3,7 @@
  * Copyright: IMPER.INFO Adrian Szuszkiewicz
  * Date: 22.06.17
  * Time: 16:35
+ * ver1
  */
 
 namespace Imper69\Curl;
