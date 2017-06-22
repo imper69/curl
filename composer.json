@@ -1,0 +1,23 @@
+{
+    "name": "imper69/curl",
+    "description": "lib extending php-curl-class",
+    "type": "library",
+    "require": {
+        "php-curl-class/php-curl-class": "^7.3",
+        "imper69/core": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imper",
+            "email": "me@imper.info"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "Imper69\\Curl\\": "src/Imper69/Curl" }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    }
+}
