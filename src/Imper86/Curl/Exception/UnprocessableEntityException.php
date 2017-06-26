@@ -5,10 +5,10 @@
  * Time: 16:16
  */
 
-namespace Imper69\Curl\Exception;
+namespace Imper86\Curl\Exception;
 
 
-class ServiceUnavailableException extends AbstractCurlException
+class UnprocessableEntityException extends AbstractCurlException
 {
 
 }

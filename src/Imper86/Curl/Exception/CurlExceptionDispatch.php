@@ -5,10 +5,10 @@
  * Time: 16:06
  */
 
-namespace Imper69\Curl\Exception;
+namespace Imper86\Curl\Exception;
 
 
-use Imper69\Curl\CurlClientInterface;
+use Imper86\Curl\CurlClientInterface;
 
 class CurlExceptionDispatch extends \Exception
 {

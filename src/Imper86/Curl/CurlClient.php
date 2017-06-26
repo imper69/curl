@@ -6,13 +6,13 @@
  * ver1
  */
 
-namespace Imper69\Curl;
+namespace Imper86\Curl;
 
 
 use Curl\Curl;
-use Imper69\Curl\Exception\CurlExceptionDispatch;
-use Imper69\Curl\Model\Response;
-use Imper69\Curl\Model\ResponseInterface;
+use Imper86\Curl\Exception\CurlExceptionDispatch;
+use Imper86\Curl\Model\Response;
+use Imper86\Curl\Model\ResponseInterface;
 
 class CurlClient implements CurlClientInterface
 {

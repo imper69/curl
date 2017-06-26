@@ -5,7 +5,7 @@
  * Time: 16:15
  */
 
-namespace Imper69\Curl\Exception;
+namespace Imper86\Curl\Exception;
 
 
 class NotFoundException extends AbstractCurlException

@@ -5,10 +5,10 @@
  * Time: 16:22
  */
 
-namespace Imper69\Curl;
+namespace Imper86\Curl;
 
 
-use Imper69\Curl\Model\ResponseInterface;
+use Imper86\Curl\Model\ResponseInterface;
 
 interface CurlClientInterface
 {

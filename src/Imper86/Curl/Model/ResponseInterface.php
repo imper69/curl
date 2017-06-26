@@ -5,7 +5,7 @@
  * Time: 16:15
  */
 
-namespace Imper69\Curl\Model;
+namespace Imper86\Curl\Model;
 
 
 interface ResponseInterface

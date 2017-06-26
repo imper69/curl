@@ -5,10 +5,10 @@
  * Time: 16:14
  */
 
-namespace Imper69\Curl\Model;
+namespace Imper86\Curl\Model;
 
 
-use Imper69\Curl\CurlClientInterface;
+use Imper86\Curl\CurlClientInterface;
 
 class Response implements ResponseInterface
 {

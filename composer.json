@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": { "Imper69\\Curl\\": "src/Imper69/Curl" }
+        "psr-4": { "Imper86\\Curl\\": "src/Imper86/Curl" }
     },
     "require-dev": {
         "symfony/var-dumper": "^3.3"
