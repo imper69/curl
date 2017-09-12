@@ -18,6 +18,13 @@ interface ResponseInterface
     public function getRawResponse();
 
     /**
+     * Returns unparsed response which is always a string
+     *
+     * @return string
+     */
+    public function getUnparsedResponse(): ?string;
+
+    /**
      * Returns request array
      *
      * @return array

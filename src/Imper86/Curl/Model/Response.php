@@ -18,16 +18,24 @@ class Response implements ResponseInterface
 
     private $rawResponse;
 
+    private $unparsedResponse;
+
     public function __construct(CurlClientInterface $curlClient)
     {
         $this->requestUri = $curlClient->getLastRequestUrl();
         $this->requestArray = $curlClient->getLastRequestData();
         $this->rawResponse = $curlClient->getLastRawResponse();
+        $this->unparsedResponse = $curlClient->getLastUnparsedResponse();
     }
 
     public function getRawResponse()
     {
         return $this->rawResponse;
+    }
+
+    public function getUnparsedResponse(): ?string
+    {
+        return $this->unparsedResponse;
     }
 
     public function getRequest(): array

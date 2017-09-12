@@ -104,6 +104,13 @@ interface CurlClientInterface
     public function getLastRawResponse();
 
     /**
+     * Returns unparsed response
+     *
+     * @return string
+     */
+    public function getLastUnparsedResponse(): ?string;
+
+    /**
      * Returns last request data
      *
      * @return mixed

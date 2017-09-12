@@ -150,6 +150,11 @@ class CurlClient implements CurlClientInterface
         return $this->curlExtLib->response;
     }
 
+    public function getLastUnparsedResponse(): ?string
+    {
+        return $this->curlExtLib->rawResponse;
+    }
+
 
     public function getLastRequestData()
     {
