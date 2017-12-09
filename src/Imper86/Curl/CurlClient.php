@@ -122,7 +122,7 @@ class CurlClient implements CurlClientInterface
 
     public function delete(string $url, array $query_parameters = array(), array $data = array()): ?ResponseInterface
     {
-        $this->curlExtLib->delete($url, $query_parameters, $data);
+        $this->curlExtLib->delete($this->prepareUrl($url), $query_parameters, $data);
         $this->lastRequest = $data;
 
         if (!empty($this->getLastErrorCode())) throw new CurlExceptionDispatch($this);
