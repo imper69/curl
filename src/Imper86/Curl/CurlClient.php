@@ -50,8 +50,11 @@ class CurlClient implements CurlClientInterface
 
     private function prepareUrl(string $url): string
     {
-        if (empty($this->baseUrlExt)) return $url;
-        if (substr($url, 0, 4) == 'http') return $url;
+        if (empty($this->baseUrlExt) || substr($url, 0, 4) == 'http') {
+            $this->lastRequestUrl = $url;
+
+            return $url;
+        }
 
         if ('/' != substr($url, 0, 1)) {
             $url = '/' . $url;
